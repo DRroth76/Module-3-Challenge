@@ -2,8 +2,8 @@
 import csv
 
 # sets file path
-election_csv = r'C:\Data Analysis Bootcamp\Module 3\cloned_module3challenge_files\Module-3-Challenge\PyPoll\Resources\election_data.csv'
-election_txt = r'C:\Data Analysis Bootcamp\Module 3\cloned_module3challenge_files\Module-3-Challenge\PyPoll\analysis\analysis_results.txt'
+election_csv = r'C:\Users\David Roth\data_analysis_bootcamp\module3\cloned_module3challenge_files\Module-3-Challenge\PyPoll\Resources\election_data.csv'
+election_txt = r'C:\Users\David Roth\data_analysis_bootcamp\module3\cloned_module3challenge_files\Module-3-Challenge\PyPoll\analysis\analysis_results.txt'
 
 # establish lists
 ballot_id = []

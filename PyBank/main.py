@@ -2,8 +2,8 @@
 import csv
 
 # sets file path
-budget_csv = r'C:\Data Analysis Bootcamp\Module 3\cloned_module3challenge_files\Module-3-Challenge\PyBank\Resources\budget_data.csv'
-budget_txt = r'C:\Data Analysis Bootcamp\Module 3\cloned_module3challenge_files\Module-3-Challenge\PyBank\analysis\analysis_results.txt'
+budget_csv = r'C:\Users\David Roth\data_analysis_bootcamp\module3\cloned_module3challenge_files\Module-3-Challenge\PyBank\Resources\budget_data.csv'
+budget_txt = r'C:\Users\David Roth\data_analysis_bootcamp\module3\cloned_module3challenge_files\Module-3-Challenge\PyBank\analysis\analysis_results.txt'
 
 # establish lists
 months = []
