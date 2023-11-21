@@ -1,9 +1,10 @@
 # imports modules needed
+from pathlib import Path
 import csv
 
 # sets file path
-election_csv = r'C:\Users\David Roth\data_analysis_bootcamp\module3\cloned_module3challenge_files\Module-3-Challenge\PyPoll\Resources\election_data.csv'
-election_txt = r'C:\Users\David Roth\data_analysis_bootcamp\module3\cloned_module3challenge_files\Module-3-Challenge\PyPoll\analysis\analysis_results.txt'
+election_csv = Path('Resources/election_data.csv')
+election_txt = Path('analysis/analysis_results.txt')
 
 # establish lists
 ballot_id = []
@@ -11,7 +12,7 @@ county = []
 candidate = []
 
 # to open the CSV file
-with open(election_csv, 'r') as csvfile:
+with open(election_csv) as csvfile:
     csvreader = csv.reader(csvfile, delimiter=',')
     header = next(csvreader)
     data = list(csvreader)
