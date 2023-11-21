@@ -1,16 +1,17 @@
 # imports modules needed
+from pathlib import Path
 import csv
 
 # sets file path
-budget_csv = r'C:\Users\David Roth\data_analysis_bootcamp\module3\cloned_module3challenge_files\Module-3-Challenge\PyBank\Resources\budget_data.csv'
-budget_txt = r'C:\Users\David Roth\data_analysis_bootcamp\module3\cloned_module3challenge_files\Module-3-Challenge\PyBank\analysis\analysis_results.txt'
+budget_csv = Path('Resources/budget_data.csv')
+budget_txt = Path('analysis/analysis_results.txt')
 
 # establish lists
 months = []
 money_amounts = []
 
 # to open the CSV file
-with open(budget_csv, 'r') as csvfile:
+with open(budget_csv) as csvfile:
     csvreader = csv.reader(csvfile,delimiter=",")
     header = next(csvreader)
     data = list(csvreader)
